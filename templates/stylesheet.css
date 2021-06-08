@@ -1,23 +1,12 @@
-@charset "utf-8";
+@charset "UTF-8";
 
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-#toc img {
-    max-width: 25vw;
-}
-
-#toc ol {
-    list-style-type: none;
-}
-
+html,
 body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  margin:    0;
+  padding:   0;
+  font-size: 0;
+}
+svg {
+  margin:    0;
+  padding:   0;
 }

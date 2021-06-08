@@ -9,7 +9,6 @@
         <dc:identifier id="BookID" opf:scheme="UUID">{{ uuid }}</dc:identifier>
         <meta property="dcterms:modified">2012-12-12T12:12:12Z</meta>
         <meta property="rendition:layout">pre-paginated</meta>
-        <meta property="rendition:orientation">portrait</meta>
         <meta property="rendition:spread">landscape</meta>
         {%- if cover %}
         <meta name="cover" content="{{ cover.id }}" />
@@ -26,9 +25,9 @@
         <item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml"/>
         <item id="ncxtoc" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
     </manifest>
-    <spine toc="ncxtoc">
+    <spine page-progression-direction="rtl" toc="ncxtoc">
         {%- for image in images %}
-        <itemref idref="{{- image.id -}} {%- if wrap_pages -%} _wrapper {%- endif -%}" />
+        <itemref linear="yes" idref="{{- image.id -}} {%- if wrap_pages -%} _wrapper {%- endif -%}" {% if image.is_cover %}properties="rendition:page-spread-center"{% else %}properties="{{ loop.cycle('page-spread-left', 'page-spread-right') }}"{% endif %} />
         {%- endfor %}
     </spine>
 </package>

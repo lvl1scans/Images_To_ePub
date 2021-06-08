@@ -19,6 +19,7 @@ You can also perform a batch operation by giving a list of directories (more tha
 
 Changes made in this fork (Specifically for Warp Pages option)
 ----------------------------------------------------------------
+* This fork is customized for Manga output.
 * ePubs generated will be RTL (Right to Left) paginated.
 * Images are shown as Spread Pages only (Even in Portrait Mode!) so, joining spread pages is not recommended. Also, keep any original blank pages so spreads are correctly shown.
 * Most readers should now show images without distortion.

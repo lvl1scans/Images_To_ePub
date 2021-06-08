@@ -17,7 +17,7 @@ The original image files will not be changed.
 This program can also run without a GUI. Run <code>main.py</code> with the <code>-h</code> flag to get more info.
 You can also perform a batch operation by giving a list of directories (more than one directory) as arguments to <code>main.py</code>.
 
-**Changes made in this fork (Specifically for Warp Pages option)
+Changes made in this fork (Specifically for Warp Pages option)
 ----------------------------------------------------------------
 * ePubs generated will be RTL (Right to Left) paginated.
 * Images are shown as Spread Pages only (Even in Portrait Mode!) so, joining spread pages is not recommended. Also, keep any original blank pages so spreads are correctly shown.

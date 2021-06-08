@@ -3,7 +3,7 @@ Images_To_ePub
 
 Convert a folder with images to an ePub file. Great for photo albums, comics, and manga!
 
-Run <code>Images_To_ePub.py</code> or <code>_Gui.py</code> to start a GUI. Select a folder, a file to save to and the name of the book (this is what most eBooks show as name).
+Run <code>main.py</code> or <code>_Gui.py</code> to start a GUI. Select a folder, a file to save to and the name of the book (this is what most eBooks show as name).
 
 The directory will be searched for image files (png,jpg,GIF) and every image will be added to the ePub file.
 The first image with the word "cover" somewhere in the name is used as the cover, but some readers will use the first page regardless of this.
@@ -14,8 +14,8 @@ Some screens do not support color images, so this program has the option to turn
 The maximum resolution of the images can also be set, resulting in the resizing of images if needed.
 The original image files will not be changed.
 
-This program can also run without a GUI. Run <code>Images_To_ePub.py</code> with the <code>-h</code> flag to get more info.
-You can also perform a batch operation by giving a list of directories (more than one directory) as arguments to <code>Images_To_ePub.py</code>.
+This program can also run without a GUI. Run <code>main.py</code> with the <code>-h</code> flag to get more info.
+You can also perform a batch operation by giving a list of directories (more than one directory) as arguments to <code>main.py</code>.
 
 Requirements
 ------------

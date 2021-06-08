@@ -24,8 +24,8 @@ Changes made in this fork (Specifically for Warp Pages option)
 * Most readers should now show images without distortion.
 * Tested on:
   * iBooks
-  * Bib/i
-  * Calibre eBook Reader
+  * [Bib/i](https://bibi.epub.link/)
+  * [Calibre eBook Reader](https://calibre-ebook.com/)
 
 
 Requirements
